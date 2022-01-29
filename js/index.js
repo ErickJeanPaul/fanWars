@@ -6,5 +6,6 @@ const ul = document.createElement("ul");
 
 fetch( `${ BASE_API_URL }/character` )
 .then( (response) => {
+    console.log( response );
     return response.json();
 })
