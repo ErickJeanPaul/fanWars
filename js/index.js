@@ -3,7 +3,6 @@ let img2 = document.getElementById("img2")
 let img3 = document.getElementById("img3")
 
 
-
 fetch('https://rickandmortyapi.com/api/character')
   .then( (response) =>{
     return response.json()
@@ -11,9 +10,10 @@ fetch('https://rickandmortyapi.com/api/character')
   .then((data)=>{
     console.log(data.results[0])
     const carrouData = (ima) => {
-      let min = 1
+      let min = 0
       let max = 20
       let i = Math.floor(Math.random() * (max - min) ) + min;
+      console.log(i)
       let rutImag = data.results[i].image
       let nameIm = data.results[i].name
       let specieInfo = data.results[i].species
@@ -23,8 +23,7 @@ fetch('https://rickandmortyapi.com/api/character')
                       <h2 class="text-carousel">${nameIm}</h2>
                       <p class="text-carousel">Especie: ${specieInfo}</p>
                       <p class="text-carousel">Estado: ${statusInfo}</p>
-                      </div>
-                      
+                      </div>                      
       `
     }
     carrouData(img1)

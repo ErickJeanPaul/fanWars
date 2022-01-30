@@ -79,8 +79,15 @@ nav ul li a {
    background-size: cover; 
    height: 1000px; 
  }
+ #footer{
+  background-image: url('../img/a826f4_31b574dfba784a47ac9126fd30fb963c_mv2.gif');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 700px; 
+
+ }
  .img-carrou{
-   height: 500px;
+   height: 600px;
    border-radius: 60px;
  }
  .title-sect{
@@ -89,9 +96,19 @@ nav ul li a {
    padding-left: 40px;
    color: aliceblue;
  }
- #places{
+ #colleccion{
   background-image: url('../img/Rick-and-Morty-Wallpapers-Top-Free-Rick-and-Morty-.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover; 
-  height: 1000px; 
+  height: auto; 
+ }
+ .card{
+   background-color: rgba(128, 255, 0, 0.473) !important;
+ }
+ .card-im-s{
+   height: 50px !important;
+   width: 50px !important;
+ }
+ .card-radiu{
+   border-radius: 60px !important;
  }
