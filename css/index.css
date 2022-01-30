@@ -11,17 +11,20 @@ header{
   background-size: cover;  
   height: 700px;
 }
-p{
+.p-landing{
   font-size: 30px;
 }
 nav ul li a {
   color: aliceblue !important;
 }
+.text-carousel{
+  color: rgb(236, 4, 81);
+
+}
 #text-land{
   color: rgb(30, 33, 36);
   padding-left: 30px;
-  margin-top: 250px;
-  
+  margin-top: 250px;  
 }
 #name-page{
   color: aliceblue !important;
